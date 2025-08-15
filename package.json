@@ -1,0 +1,36 @@
+{
+  "name": "chab-api",
+  "version": "1.0.0",
+  "description": "Ai chat api",
+  "homepage": "https://github.com/Polomac/chab-api#readme",
+  "bugs": {
+    "url": "https://github.com/Polomac/chab-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polomac/chab-api.git"
+  },
+  "license": "MIT",
+  "author": "Milan Polomac (milan.polomac@gmail.com)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "tsc --noEmit && tsx --watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "openai": "^5.12.2",
+    "stream-chat": "^9.16.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  }
+}

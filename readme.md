@@ -29,4 +29,4 @@ A simple API for building and integrating chat bots.
 
 ## License
 
-MIT 
+MIT
