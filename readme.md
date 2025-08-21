@@ -15,17 +15,25 @@ A simple API for building and integrating chat bots.
     ```bash
     npm install
     ```
-3. Start the server:  
+3. Run locally:  
     ```bash
-    npm start
+    npm run dev
+    ```
+4. Build:  
+    ```bash
+    npm run build
+    ```
+5. Start the server:  
+    ```bash
+    npm run start
     ```
 
 ## API Endpoints
 
 | Method | Endpoint      | Description         |
 |--------|--------------|---------------------|
-| POST   | `/chat`      | Send a message      |
-| GET    | `/messages`  | List all messages   |
+| POST   | `/register`  | Register user       |
+|        | ``           |                     |
 
 ## License
 
