@@ -33,7 +33,7 @@ A simple API for building and integrating chat bots.
 | Method | Endpoint      | Description         |
 |--------|--------------|---------------------|
 | POST   | `/register`  | Register user       |
-|        | ``           |                     |
+| POST   | `/chat`      | Send chat message   |
 
 ## License
 
